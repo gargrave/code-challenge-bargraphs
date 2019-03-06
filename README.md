@@ -79,7 +79,7 @@ The code above should render a component that looks roughly like:
 
 ### 3. API Interaction
 
-- Fetch the data from [this mock API](https://gist.githubusercontent.com/gargrave/e2fd3d07d44862a094dabb36137a9187/raw/29f8aef5813e1f67ab12f90617638091561b6b25/mock-api.json) and use it to populate a `MultiBar`.
+- Fetch the data from [this mock API](https://gist.githubusercontent.com/gargrave/e2fd3d07d44862a094dabb36137a9187/raw/30d126f95eefa84895c1f5608eea69cd92629e2a/mock-api.json) and use it to populate a `MultiBar`.
 - Should show some sort of "loading" indicator while the request is pending, even if it is simply showing the text `Loading...`
 - Note that the API may not be formatting our data exactly how we need it, so you may need to tweak it a bit before passing it to the component.
   - (Use your best judgement on colors for the left/right values here)
